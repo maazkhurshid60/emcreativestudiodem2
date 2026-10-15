@@ -7,7 +7,7 @@
 
    Both aquas are LIGHT (#A1D7D6 is luminance ~.61). As text on the cream
    grounds they measure ~1.6:1 - unreadable - so aqua is never a text colour
-   here. It is used as: rules and markers, a highlighter band BEHIND accent
+   here. It is used as: rules and markers, a soft glow BEHIND accent
    words, a button hover carrying espresso ink (~8.6:1), and soft glows mixed
    into the existing backgrounds. Kept faint throughout: a cool hue reads
    stronger than a warm one at the same lightness, and every ground on this
@@ -33,16 +33,24 @@ body .eyebrow::after,
   .btn--dark:hover{ background:var(--aqua); color:var(--espresso); }
 }
 
-/* Accent words in headings: a highlighter band behind the lower part of the
-   word, the word itself in cocoa (taupe washed out on the band).
-   box-decoration-break repeats the band per line when the word wraps. */
+/* Accent words in headings: a soft aqua glow hugging the word, the same
+   radial haze the footer and sections use, so there is no hard band edge.
+   The client turned down the earlier highlighter stripe. The glow sits in
+   padding pulled back out with negative margins, so the word does not move;
+   box-decoration-break repeats the glow per line when the word wraps. */
 .h2 .tint, .stats__heading span, .team__ceo-name span{
-  background-image:linear-gradient(transparent 58%,
-    color-mix(in srgb, var(--aqua) 70%, transparent) 58%,
-    color-mix(in srgb, var(--aqua) 70%, transparent) 90%, transparent 90%);
+  background-image:radial-gradient(closest-side,
+    color-mix(in srgb, var(--aqua) 52%, transparent) 0%,
+    color-mix(in srgb, var(--aqua) 36%, transparent) 30%,
+    color-mix(in srgb, var(--aqua) 18%, transparent) 60%,
+    color-mix(in srgb, var(--aqua) 6%, transparent) 82%,
+    transparent 100%);
   background-repeat:no-repeat;
+  background-size:100% 100%;
   -webkit-box-decoration-break:clone; box-decoration-break:clone;
-  padding-inline:.06em;
+  /* wide padding = how far the glow spreads past the word; the negative
+     margins give the same space back so the text does not shift */
+  padding:1.1em 2.4em 1em; margin-inline:-2.4em;
   color:var(--cocoa);
 }
 
