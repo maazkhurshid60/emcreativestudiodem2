@@ -142,7 +142,8 @@
   /* ---- Smallest labels --------------------------------------------------
      A handful of tags were set at 9.5-10px, below what reads on a phone. */
   .pack__tag, .pack__group, .seo-card__tag, .work-card__tag, .tier-pill,
-  .meta-bar__lbl, .next-case__tag{ font-size:11px; }
+  .meta-bar__lbl, .next-case__tag, .tplh__fit,
+  .cmp thead .tier-pill, .pack__stats span{ font-size:11px; }
 }
 
 @media (max-width:560px){
@@ -162,12 +163,28 @@
   .sec{ padding-block:64px; }
 
   /* ---- Showreel ---------------------------------------------------------
-     The film is 16:9, the opened frame on a phone is the full portrait
-     screen, and object-fit:cover filled it by cropping away ~70% of every
-     shot. contain shows the whole film, centred on the espresso ground the
-     frame already paints. The pinned open-out is kept, on a shorter track. */
+     The pinned open-out filled the whole portrait screen with espresso for
+     a screen and a half of scrolling, the play button only resolving near
+     the end of it, and the 16:9 film then sat letterboxed in the middle of
+     all that brown. On a phone the reel is a plain 16:9 card in the flow,
+     already resolved, the way reduced motion gets it. The reel never
+     autoplays on a phone (showreel.js), so nothing waits on --sp here: the
+     cover is the play button. */
+  .showreel__track{ height:auto; }
+  .showreel__stage{ position:static; height:auto; }
+  .showreel__frame{
+    clip-path:none;
+    border-radius:var(--r-lg, 22px);
+    aspect-ratio:16/9; height:auto; width:auto;
+    /* the stage is full-bleed; the card keeps the page's side gutter */
+    margin:28px var(--gut, 18px) 0;
+  }
   .showreel__video{ object-fit:contain; }
-  .showreel__track{ height:150vh; }
+  .showreel__cover > *{ --w:1; filter:none; transform:none; }
+  /* a 16:9 card on a phone is ~200px tall: tighter padding, and nothing in
+     the stack may shrink, or the play button squashes into an oval */
+  .showreel__cover{ gap:10px; padding:12px; }
+  .showreel__cover > *{ flex-shrink:0; }
 
   /* ---- Body copy ----------------------------------------------------------
      A few running-text paragraphs were 13-13.5px; 14px is the floor for

@@ -400,8 +400,29 @@ a{ color:inherit; }
 
 @media (max-width:820px){
   .packs{ flex-direction:column; min-height:0; }
-  .pack[aria-expanded="true"]{ flex-grow:1; }
-  .pack__hint{ display:none; }
+  /* Same fix as the home page's tiers (globals.css). .pack is flex:1 1 0 for
+     the desktop row; stacked, a zero basis with no container height to share
+     squashed every tier to a sliver and its own overflow:hidden cut the
+     title in half. Size to content. */
+  .pack{ flex:0 0 auto; padding:20px 22px; }
+  .pack[aria-expanded="true"]{ flex-grow:0; }
+
+  /* No hover on a phone to say a tier opens, so the closed card carries the
+     cue: the price note at reading strength, and a pill saying what a tap
+     does. currentColor so it reads on the espresso tier too. */
+  .pack__hint{
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+    margin-top:14px; font-size:14px; opacity:1;
+    color:color-mix(in srgb, currentColor 72%, transparent);
+  }
+  .pack__hint::after{
+    content:"What\2019s included  +";
+    white-space:pre;
+    padding:7px 14px; border-radius:999px;
+    border:1px solid color-mix(in srgb, currentColor 28%, transparent);
+    font-size:13px; font-weight:600; color:var(--pack-ink, var(--espresso));
+  }
+  .pack:nth-child(1) .pack__hint::after{ --pack-ink:var(--paper); }
 }
 
 /* The tiers all say "pricing on request", so the section needs somewhere for

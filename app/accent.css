@@ -53,6 +53,14 @@ body .eyebrow::after,
   padding:1.1em 2.4em 1em; margin-inline:-2.4em;
   color:var(--cocoa);
 }
+/* Here rather than in mobile.css, which loads before this sheet. At 2.4em a
+   side the glow ran past the right edge of a 390px screen and gave /contact
+   a sideways scroll. Tighter on a phone; still a haze. */
+@media (max-width:620px){
+  .h2 .tint, .stats__heading span, .team__ceo-name span{
+    padding:.9em .9em .8em; margin-inline:-.9em;
+  }
+}
 
 /* Section glows. Each section keeps its own colour and takes one soft aqua
    glow, alternating sides down the page. Off the edges (40% / 60% down,
