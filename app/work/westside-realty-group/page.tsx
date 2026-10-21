@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { HTML } from "@/components/pages/workDetail";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbs } from "@/lib/schema";
 import "./page.css";
 // Phone-only refinements shared by every route; after the page sheet so it wins.
 import "../../mobile.css";
@@ -16,6 +18,12 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          ...breadcrumbs([["Work", "/work"], ["Westside Realty Group", "/work/westside-realty-group"]]),
+        }}
+      />
       <div dangerouslySetInnerHTML={{ __html: HTML }} />
       <Script src="/scripts/nav.js" strategy="afterInteractive" />
       <Script src="/scripts/pages/workDetail.js" strategy="afterInteractive" />

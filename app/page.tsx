@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import SiteBody from "@/components/SiteBody";
+import JsonLd from "@/components/JsonLd";
+import { STUDIO, WEBSITE } from "@/lib/schema";
 import "./globals.css";
 // Phone-only refinements shared by every route; after the page sheet so it wins.
 import "./mobile.css";
@@ -15,5 +17,10 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return <SiteBody />;
+  return (
+    <>
+      <JsonLd data={{ "@context": "https://schema.org", "@graph": [STUDIO, WEBSITE] }} />
+      <SiteBody />
+    </>
+  );
 }

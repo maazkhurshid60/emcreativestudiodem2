@@ -60,6 +60,12 @@ body .eyebrow::after,
   .h2 .tint, .stats__heading span, .team__ceo-name span{
     padding:.9em .9em .8em; margin-inline:-.9em;
   }
+  /* Even at .9em, a glowing word that ends a heading line pushes its haze
+     past the screen edge, and the phone widens the whole page to fit it
+     (/terms, "boiled down."). Nothing on a phone page is meant to be
+     reachable sideways, so the page clips it. clip, not hidden: hidden makes
+     html a scroll container and breaks the sticky table columns. */
+  html, body{ overflow-x:clip; }
 }
 
 /* Section glows. Each section keeps its own colour and takes one soft aqua

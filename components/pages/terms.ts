@@ -130,15 +130,15 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="policy" data-rise>
         <div class="policy__meta">
-          <strong>Last updated:</strong> September 1, 2026 &middot; Effective for theemcreative.studio and every project we take on
+          <strong>Last updated:</strong> September 1, 2026 &middot; Effective for theemcreativestudio.com and every project we take on
         </div>
         <p style="font-size:15px; line-height:1.72; color:var(--ink-soft); margin:0 0 8px;">
-          The EM Creative Studio (&ldquo;we,&rdquo; &ldquo;us,&rdquo; &ldquo;our&rdquo;) wrote these terms in plain language on purpose. They cover how you can use this site and what to expect when you work with us on a project. By using theemcreative.studio or engaging our services, you&rsquo;re agreeing to what&rsquo;s below.
+          The EM Creative Studio (&ldquo;we,&rdquo; &ldquo;us,&rdquo; &ldquo;our&rdquo;) wrote these terms in plain language on purpose. They cover how you can use this site and what to expect when you work with us on a project. By using theemcreativestudio.com or engaging our services, you&rsquo;re agreeing to what&rsquo;s below.
         </p>
 
         <section id="acceptance">
           <h2><span class="policy__no">1</span> Acceptance of Terms</h2>
-          <p>By using theemcreative.studio or engaging The EM Creative Studio for any project, you agree to these terms. If you&rsquo;re accepting on behalf of a company, you&rsquo;re confirming you have the authority to bind that company to them. If you don&rsquo;t agree, please don&rsquo;t use the site or engage our services.</p>
+          <p>By using theemcreativestudio.com or engaging The EM Creative Studio for any project, you agree to these terms. If you&rsquo;re accepting on behalf of a company, you&rsquo;re confirming you have the authority to bind that company to them. If you don&rsquo;t agree, please don&rsquo;t use the site or engage our services.</p>
         </section>
 
         <section id="use">

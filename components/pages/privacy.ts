@@ -129,10 +129,10 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="policy" data-rise>
         <div class="policy__meta">
-          <strong>Last updated:</strong> September 1, 2026 &middot; Effective for theemcreative.studio and its subdomains
+          <strong>Last updated:</strong> September 1, 2026 &middot; Effective for theemcreativestudio.com and its subdomains
         </div>
         <p style="font-size:15px; line-height:1.72; color:var(--ink-soft); margin:0 0 8px;">
-          The EM Creative Studio (&ldquo;we,&rdquo; &ldquo;us,&rdquo; &ldquo;our&rdquo;) built this site to be useful, not extractive. This policy explains what information we collect when you visit, what we do with it, and how you can control it. It applies to theemcreative.studio and everything on it.
+          The EM Creative Studio (&ldquo;we,&rdquo; &ldquo;us,&rdquo; &ldquo;our&rdquo;) built this site to be useful, not extractive. This policy explains what information we collect when you visit, what we do with it, and how you can control it. It applies to theemcreativestudio.com and everything on it.
         </p>
 
         <section id="collect">

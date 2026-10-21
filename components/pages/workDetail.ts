@@ -149,7 +149,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         <span class="gallery__cap">New homepage &amp; listing template</span>
       </div>
       <div class="gallery__item">
-        <img src="/images/stock/modern-home.webp" alt="A modern home at dusk photographed for a Westside Realty Group listing" loading="lazy" decoding="async">
+        <img src="/images/stock/living-room.webp" alt="A staged living room photographed for a Westside Realty Group listing" loading="lazy" decoding="async">
         <span class="gallery__cap">Listing photography, framed to sell scale</span>
       </div>
     </div>

@@ -161,7 +161,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         </div>
         <p class="love-card__text">&ldquo;They gave us a brand our competitors keep quietly borrowing. The attention to detail was unlike anything we have experienced with other agencies.&rdquo;</p>
         <div class="love-card__foot">
-          <span class="love-card__avatar"><img src="https://cdn.pixabay.com/photo/2019/10/04/13/19/woman-4525646_1280.jpg" alt="Dana Reyes" loading="lazy" decoding="async"></span>
+          <span class="love-card__avatar"><img src="/images/people/woman-4525646.jpg" alt="Dana Reyes" loading="lazy" decoding="async"></span>
           <div>
             <div class="love-card__name">Dana Reyes</div>
             <div class="love-card__role">Founder, Marchetti &amp; Co.</div>
@@ -179,7 +179,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         </div>
         <p class="love-card__text">&ldquo;EM Creative completely transformed our online presence. Within three months our listings were getting twice the engagement and our brand finally felt like us.&rdquo;</p>
         <div class="love-card__foot">
-          <span class="love-card__avatar"><img src="https://cdn.pixabay.com/photo/2020/09/18/22/05/man-5583034_1280.jpg" alt="Michael Torres" loading="lazy" decoding="async"></span>
+          <span class="love-card__avatar"><img src="/images/people/man-5583034.jpg" alt="Michael Torres" loading="lazy" decoding="async"></span>
           <div>
             <div class="love-card__name">Michael Torres</div>
             <div class="love-card__role">Broker, Westside Realty Group</div>
@@ -197,7 +197,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         </div>
         <p class="love-card__text">&ldquo;They took over our Instagram and Reels and our engagement tripled inside a quarter. What I appreciate most is they understand our coastal market, not just marketing in general.&rdquo;</p>
         <div class="love-card__foot">
-          <span class="love-card__avatar"><img src="https://cdn.pixabay.com/photo/2017/06/01/00/44/laughing-2362140_1280.jpg" alt="Elena Cruz" loading="lazy" decoding="async"></span>
+          <span class="love-card__avatar"><img src="/images/people/laughing-2362140.jpg" alt="Elena Cruz" loading="lazy" decoding="async"></span>
           <div>
             <div class="love-card__name">Elena Cruz</div>
             <div class="love-card__role">VP Marketing, Coastline Realty Partners</div>
@@ -215,7 +215,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         </div>
         <p class="love-card__text">&ldquo;Our organic leads nearly doubled in six months without touching a single paid ad. The local SEO work they did actually moved the needle, not just the rankings report.&rdquo;</p>
         <div class="love-card__foot">
-          <span class="love-card__avatar"><img src="https://cdn.pixabay.com/photo/2022/11/29/10/54/indian-businesswoman-7624276_1280.jpg" alt="Priya Anand" loading="lazy" decoding="async"></span>
+          <span class="love-card__avatar"><img src="/images/people/indian-businesswoman-7624276.jpg" alt="Priya Anand" loading="lazy" decoding="async"></span>
           <div>
             <div class="love-card__name">Priya Anand</div>
             <div class="love-card__role">Marketing Director, Ainsworth Properties</div>
@@ -233,7 +233,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         </div>
         <p class="love-card__text">&ldquo;The postcard campaign they built for our farm area outperformed every boosted post we tried that quarter. It&rsquo;s rare to find a shop that still does print this well and still gets digital.&rdquo;</p>
         <div class="love-card__foot">
-          <span class="love-card__avatar"><img src="https://cdn.pixabay.com/photo/2020/08/26/15/43/portrait-5519817_1280.jpg" alt="Grant Bellmore" loading="lazy" decoding="async"></span>
+          <span class="love-card__avatar"><img src="/images/people/portrait-5519817.jpg" alt="Grant Bellmore" loading="lazy" decoding="async"></span>
           <div>
             <div class="love-card__name">Grant Bellmore</div>
             <div class="love-card__role">Managing Partner, Bellmore &amp; Hale</div>
@@ -251,7 +251,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         </div>
         <p class="love-card__text">&ldquo;Working with Seda and her team felt like having an in-house creative department. They understood our market from day one and delivered beyond expectations.&rdquo;</p>
         <div class="love-card__foot">
-          <span class="love-card__avatar"><img src="https://cdn.pixabay.com/photo/2015/07/08/11/25/female-836109_1280.jpg" alt="Rachel Kim" loading="lazy" decoding="async"></span>
+          <span class="love-card__avatar"><img src="/images/people/female-836109.jpg" alt="Rachel Kim" loading="lazy" decoding="async"></span>
           <div>
             <div class="love-card__name">Rachel Kim</div>
             <div class="love-card__role">Team Lead, Luxe Properties LA</div>

@@ -44,7 +44,6 @@ export const FOOTER_HTML = `
           <li><a href="/about" data-hot>About</a></li>
           <li><a href="/blog" data-hot>Blog</a></li>
           <li><a href="/testimonials" data-hot>Testimonials</a></li>
-          <li><a href="#" data-hot>Careers</a></li>
         </ul>
       </div>
       <div>
@@ -72,7 +71,7 @@ export const FOOTER_HTML = `
       <div class="foot__legal-links">
         <a href="/privacy" data-hot>Privacy Policy</a>
         <a href="/terms" data-hot>Terms of Service</a>
-        <a href="#" data-hot>Cookies</a>
+        <a href="/privacy#cookies" data-hot>Cookies</a>
       </div>
     </div>
   </div>

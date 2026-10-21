@@ -1325,3 +1325,9 @@ body.nav-tucked:not(.nav-open) .nav a.brand{ opacity:1; }
 @media (max-width:820px){
   .book__frame{ height:1120px; }
 }
+/* On a phone Calendly shows the month alone (~880px at 390 wide) and opens the
+   time slots as a separate screen of about the same height, so 1120px left a
+   blank grey block under the calendar. */
+@media (max-width:620px){
+  .book__frame{ height:900px; }
+}

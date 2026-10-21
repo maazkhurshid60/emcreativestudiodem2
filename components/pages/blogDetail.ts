@@ -64,7 +64,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
   </div>
 
   <div class="hero__byline">
-    <span class="hero__byline-avatar"><img src="https://cdn.pixabay.com/photo/2021/03/26/08/34/woman-6125218_1280.jpg" alt="Maya Chen" loading="lazy" decoding="async"></span>
+    <span class="hero__byline-avatar"><img src="/images/people/woman-6125218.jpg" alt="Maya Chen" loading="lazy" decoding="async"></span>
     <span class="hero__byline-text"><b>Maya Chen</b>August 24, 2026</span>
   </div>
 </section>
@@ -89,7 +89,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <figure class="art__figure" data-rise>
         <div class="art__figure-media">
-          <img src="/images/stock/modern-home.webp" alt="A modern home photographed at dusk, lit from inside" loading="lazy" decoding="async">
+          <img src="/images/stock/living-room.webp" alt="A staged living room photographed from a corner angle, showing the full depth of the space" loading="lazy" decoding="async">
         </div>
         <figcaption class="art__figure-cap">A corner angle holds a room&rsquo;s true proportions and gives buyers a sense of scale that most doorway shots lose.</figcaption>
       </figure>
@@ -124,7 +124,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
     <div class="art__foot" data-rise>
       <div class="author-card">
-        <span class="author-card__avatar"><img src="https://cdn.pixabay.com/photo/2021/03/26/08/34/woman-6125218_1280.jpg" alt="Maya Chen" loading="lazy" decoding="async"></span>
+        <span class="author-card__avatar"><img src="/images/people/woman-6125218.jpg" alt="Maya Chen" loading="lazy" decoding="async"></span>
         <div>
           <p class="author-card__name">Maya Chen</p>
           <p class="author-card__role">Content Strategist, The EM Creative Studio</p>
@@ -163,7 +163,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         <div class="post-card__body">
           <h3 class="post-card__ttl"><a href="/blog">Why your brand voice should sound like you, not every other agent</a></h3>
           <p class="post-card__excerpt">The fastest way to blend into a crowded market is to sound like everyone in it.</p>
-          <div class="post-card__meta"><span class="post-card__avatar"><img src="https://cdn.pixabay.com/photo/2019/12/10/05/11/serious-4684970_1280.jpg" alt="Jordan Reyes" loading="lazy" decoding="async"></span> Jordan Reyes &middot; 5 min read</div>
+          <div class="post-card__meta"><span class="post-card__avatar"><img src="/images/people/serious-4684970.jpg" alt="Jordan Reyes" loading="lazy" decoding="async"></span> Jordan Reyes &middot; 5 min read</div>
           <a class="post-card__link" href="/blog">Read more <svg width="17" height="10" viewBox="0 0 17 10"><use href="#arw"/></svg></a>
         </div>
       </article>
@@ -176,7 +176,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         <div class="post-card__body">
           <h3 class="post-card__ttl"><a href="/blog">Local SEO for agents: ranking when buyers search &ldquo;near me&rdquo;</a></h3>
           <p class="post-card__excerpt">Three technical fixes and one content habit that moved four clients onto page one.</p>
-          <div class="post-card__meta"><span class="post-card__avatar"><img src="https://cdn.pixabay.com/photo/2021/03/26/12/27/woman-6125789_1280.jpg" alt="Sofia Park" loading="lazy" decoding="async"></span> Sofia Park &middot; 7 min read</div>
+          <div class="post-card__meta"><span class="post-card__avatar"><img src="/images/people/woman-6125789.jpg" alt="Sofia Park" loading="lazy" decoding="async"></span> Sofia Park &middot; 7 min read</div>
           <a class="post-card__link" href="/blog">Read more <svg width="17" height="10" viewBox="0 0 17 10"><use href="#arw"/></svg></a>
         </div>
       </article>
@@ -189,7 +189,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         <div class="post-card__body">
           <h3 class="post-card__ttl"><a href="/blog">What makes a listing site convert, beyond pretty photos</a></h3>
           <p class="post-card__excerpt">Load speed, form placement, and one map widget decision that quietly kills mobile leads.</p>
-          <div class="post-card__meta"><span class="post-card__avatar"><img src="https://cdn.pixabay.com/photo/2014/11/19/10/52/man-537136_1280.jpg" alt="Devon Lee" loading="lazy" decoding="async"></span> Devon Lee &middot; 6 min read</div>
+          <div class="post-card__meta"><span class="post-card__avatar"><img src="/images/people/man-537136.jpg" alt="Devon Lee" loading="lazy" decoding="async"></span> Devon Lee &middot; 6 min read</div>
           <a class="post-card__link" href="/blog">Read more <svg width="17" height="10" viewBox="0 0 17 10"><use href="#arw"/></svg></a>
         </div>
       </article>

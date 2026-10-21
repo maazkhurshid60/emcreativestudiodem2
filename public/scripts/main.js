@@ -760,28 +760,28 @@ document.querySelectorAll('canvas[data-art]').forEach(cv => {
   const TEAM = [
     {
       name:'Darius Cho', role:'Lead Designer',
-      img:'https://cdn.pixabay.com/photo/2019/11/07/10/46/portrait-4608718_640.jpg',
+      img:'/images/people/darius-cho.jpg',
       bio:'Type nerd, grid obsessive, and the reason every EM site loads in under a second. Darius turns wireframes into experiences people remember.',
       tags:['Web Design','Typography','Motion Design'],
       quote:'"Good design is invisible. Great design makes you feel something."'
     },
     {
       name:'Sofia Reyes', role:'Content Strategist',
-      img:'https://cdn.pixabay.com/photo/2021/07/22/01/26/woman-6484766_640.jpg',
+      img:'/images/people/sofia-reyes.jpg',
       bio:'Writes the words that rank and the captions that convert. Sofia connects SEO strategy with genuine storytelling so nothing reads like it was written by a machine.',
       tags:['SEO','Copywriting','Social Strategy'],
       quote:'"Content is the bridge between what you sell and what people actually search for."'
     },
     {
       name:'Marcus Webb', role:'Paid Media Lead',
-      img:'https://cdn.pixabay.com/photo/2020/06/20/17/54/man-5321485_640.jpg',
+      img:'/images/people/marcus-webb.jpg',
       bio:'Runs Meta, Google and TikTok campaigns against tracked revenue, not vanity impressions. Marcus refreshes creative every two weeks because algorithms reward the new.',
       tags:['Paid Social','Google Ads','Analytics'],
       quote:'"If your ad budget is not making you money, it is making someone else money."'
     },
     {
       name:'Ava Chen', role:'Brand Photographer',
-      img:'https://cdn.pixabay.com/photo/2017/08/01/08/29/woman-2563491_640.jpg',
+      img:'/images/people/woman-2563491.jpg',
       bio:'Ava shoots the listing photos, lifestyle content, and headshots that stop the scroll. Her eye for light and composition gives every EM client a visual edge.',
       tags:['Photography','Visual Identity','Content Production'],
       quote:'"Light is everything. Get that right and the brand follows."'

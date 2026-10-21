@@ -88,7 +88,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         <h2 class="feat__ttl">The listing photo mistake that&rsquo;s costing you showings</h2>
         <p class="feat__excerpt">Buyers decide in under three seconds whether to click into a listing. We broke down forty top-performing listings to find the one framing choice separating the scrolls-past from the saves.</p>
         <div class="feat__meta">
-          <span class="feat__avatar"><img src="https://cdn.pixabay.com/photo/2021/03/26/08/34/woman-6125218_1280.jpg" alt="Maya Chen" loading="lazy" decoding="async"></span>
+          <span class="feat__avatar"><img src="/images/people/woman-6125218.jpg" alt="Maya Chen" loading="lazy" decoding="async"></span>
           Maya Chen &middot; Aug 24 &middot; 6 min read
         </div>
         <span class="feat__link">Read the story <svg width="17" height="10" viewBox="0 0 17 10"><use href="#arw"/></svg></span>
@@ -131,7 +131,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         <div class="post-card__body">
           <h3 class="post-card__ttl"><a href="#">Why your brand voice should sound like you, not every other agent</a></h3>
           <p class="post-card__excerpt">The fastest way to blend into a crowded market is to sound like everyone in it. A framework for finding the two or three words that are actually yours.</p>
-          <div class="post-card__meta"><span class="post-card__avatar"><img src="https://cdn.pixabay.com/photo/2019/12/10/05/11/serious-4684970_1280.jpg" alt="Jordan Reyes" loading="lazy" decoding="async"></span> Jordan Reyes &middot; 5 min read</div>
+          <div class="post-card__meta"><span class="post-card__avatar"><img src="/images/people/serious-4684970.jpg" alt="Jordan Reyes" loading="lazy" decoding="async"></span> Jordan Reyes &middot; 5 min read</div>
           <a class="post-card__link" href="#">Read more <svg width="17" height="10" viewBox="0 0 17 10"><use href="#arw"/></svg></a>
         </div>
       </article>
@@ -144,7 +144,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         <div class="post-card__body">
           <h3 class="post-card__ttl"><a href="#">The algorithm doesn&rsquo;t care about your aesthetic</a></h3>
           <p class="post-card__excerpt">Here is what it actually rewards: watch time, saves, and shares, in that order. A practical look at what to change first.</p>
-          <div class="post-card__meta"><span class="post-card__avatar"><img src="https://cdn.pixabay.com/photo/2021/04/07/09/47/man-6158647_1280.jpg" alt="Amir Khoury" loading="lazy" decoding="async"></span> Amir Khoury &middot; 4 min read</div>
+          <div class="post-card__meta"><span class="post-card__avatar"><img src="/images/people/man-6158647.jpg" alt="Amir Khoury" loading="lazy" decoding="async"></span> Amir Khoury &middot; 4 min read</div>
           <a class="post-card__link" href="#">Read more <svg width="17" height="10" viewBox="0 0 17 10"><use href="#arw"/></svg></a>
         </div>
       </article>
@@ -157,7 +157,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         <div class="post-card__body">
           <h3 class="post-card__ttl"><a href="#">Local SEO for agents: ranking when buyers search &ldquo;near me&rdquo;</a></h3>
           <p class="post-card__excerpt">Three technical fixes and one content habit that moved four of our clients onto page one for their neighborhood terms.</p>
-          <div class="post-card__meta"><span class="post-card__avatar"><img src="https://cdn.pixabay.com/photo/2021/03/26/12/27/woman-6125789_1280.jpg" alt="Sofia Park" loading="lazy" decoding="async"></span> Sofia Park &middot; 7 min read</div>
+          <div class="post-card__meta"><span class="post-card__avatar"><img src="/images/people/woman-6125789.jpg" alt="Sofia Park" loading="lazy" decoding="async"></span> Sofia Park &middot; 7 min read</div>
           <a class="post-card__link" href="#">Read more <svg width="17" height="10" viewBox="0 0 17 10"><use href="#arw"/></svg></a>
         </div>
       </article>
@@ -170,7 +170,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         <div class="post-card__body">
           <h3 class="post-card__ttl"><a href="#">Open house follow-ups that actually get replies</a></h3>
           <p class="post-card__excerpt">The five-email sequence we send within an hour of every showing, and why the second email outperforms the first.</p>
-          <div class="post-card__meta"><span class="post-card__avatar"><img src="https://cdn.pixabay.com/photo/2021/03/26/08/34/woman-6125218_1280.jpg" alt="Maya Chen" loading="lazy" decoding="async"></span> Maya Chen &middot; 5 min read</div>
+          <div class="post-card__meta"><span class="post-card__avatar"><img src="/images/people/woman-6125218.jpg" alt="Maya Chen" loading="lazy" decoding="async"></span> Maya Chen &middot; 5 min read</div>
           <a class="post-card__link" href="#">Read more <svg width="17" height="10" viewBox="0 0 17 10"><use href="#arw"/></svg></a>
         </div>
       </article>
@@ -183,7 +183,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         <div class="post-card__body">
           <h3 class="post-card__ttl"><a href="#">What makes a listing site convert, beyond pretty photos</a></h3>
           <p class="post-card__excerpt">Load speed, form placement, and one map widget decision that quietly kills mobile leads on half the sites we audit.</p>
-          <div class="post-card__meta"><span class="post-card__avatar"><img src="https://cdn.pixabay.com/photo/2014/11/19/10/52/man-537136_1280.jpg" alt="Devon Lee" loading="lazy" decoding="async"></span> Devon Lee &middot; 6 min read</div>
+          <div class="post-card__meta"><span class="post-card__avatar"><img src="/images/people/man-537136.jpg" alt="Devon Lee" loading="lazy" decoding="async"></span> Devon Lee &middot; 6 min read</div>
           <a class="post-card__link" href="#">Read more <svg width="17" height="10" viewBox="0 0 17 10"><use href="#arw"/></svg></a>
         </div>
       </article>
@@ -196,14 +196,10 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
         <div class="post-card__body">
           <h3 class="post-card__ttl"><a href="#">Print isn&rsquo;t dead: when a postcard still beats a boosted post</a></h3>
           <p class="post-card__excerpt">Farming a ten-block radius? The math on direct mail versus paid social, run on three actual campaigns.</p>
-          <div class="post-card__meta"><span class="post-card__avatar"><img src="https://cdn.pixabay.com/photo/2021/04/07/09/47/man-6158647_1280.jpg" alt="Amir Khoury" loading="lazy" decoding="async"></span> Amir Khoury &middot; 4 min read</div>
+          <div class="post-card__meta"><span class="post-card__avatar"><img src="/images/people/man-6158647.jpg" alt="Amir Khoury" loading="lazy" decoding="async"></span> Amir Khoury &middot; 4 min read</div>
           <a class="post-card__link" href="#">Read more <svg width="17" height="10" viewBox="0 0 17 10"><use href="#arw"/></svg></a>
         </div>
       </article>
-    </div>
-
-    <div class="feed__more" data-rise>
-      <button class="btn btn--ghost" type="button">Load more stories</button>
     </div>
   </div>
 </section>

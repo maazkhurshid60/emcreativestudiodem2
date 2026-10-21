@@ -18,6 +18,7 @@ export default function Page() {
     <>
       <div dangerouslySetInnerHTML={{ __html: HTML }} />
       <Script src="/scripts/nav.js" strategy="afterInteractive" />
+      <Script src="/scripts/newsletter.js" strategy="afterInteractive" />
       <Script src="/scripts/pages/terms.js" strategy="afterInteractive" />
     </>
   );

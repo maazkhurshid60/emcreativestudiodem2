@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { SITE_URL } from "@/lib/site";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   // Without this every per-page `alternates.canonical` stays relative, and a
@@ -9,6 +9,12 @@ export const metadata: Metadata = {
   title: "The EM Creative Studio — Brands that earn their crown",
   description:
     "SEO, web design and brand systems for companies that refuse to blend in. A boutique creative studio in Los Angeles.",
+  // Shared by every page. No og:title or og:description here on purpose: a
+  // value set in the layout would be every page's, and without one WhatsApp,
+  // LinkedIn and Facebook read each page's own <title> and description. The
+  // image is app/opengraph-image.tsx.
+  openGraph: { type: "website", siteName: SITE_NAME, locale: "en_US" },
+  twitter: { card: "summary_large_image" },
   // TEMPORARY: keeps the whole site out of search results until launch. Every
   // route inherits this from the root layout. Remove it to allow indexing.
   // Do not also block the site in robots.txt - Google has to be able to crawl

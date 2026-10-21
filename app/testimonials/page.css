@@ -645,7 +645,8 @@ a{ color:inherit; }
   margin:0 auto clamp(20px,3vh,32px);
   box-shadow:0 8px 24px -8px rgba(0,0,0,.25);
 }
-.quote__icon svg{ color:var(--ink); }
+/* paper, as on the home and work pages: ink on the espresso badge was invisible */
+.quote__icon svg{ color:var(--paper); }
 
 /* testimonial text with word-wave animation */
 .quote__text{
