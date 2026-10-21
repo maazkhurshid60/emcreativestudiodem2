@@ -80,7 +80,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
     <a class="feat" href="/blog/the-listing-photo-mistake" data-rise>
       <div class="feat__media">
-        <img src="https://cdn.pixabay.com/photo/2017/08/03/18/04/camera-2577668_1280.jpg" alt="Camera set up for a real estate listing photo shoot" loading="lazy" decoding="async">
+        <img src="/images/stock/camera.webp" alt="Camera and lenses ready for a real estate listing shoot" loading="lazy" decoding="async">
         <span class="feat__pill"><svg viewBox="0 0 24 24"><use href="#ic-star"/></svg> Featured</span>
       </div>
       <div class="feat__body">
@@ -125,7 +125,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
     <div class="post-grid">
       <article class="post-card" data-cat="branding" data-rise>
         <a class="post-card__media" href="#" tabindex="-1">
-          <img src="https://cdn.pixabay.com/photo/2017/06/29/22/29/branding-2456457_1280.jpg" alt="Brand identity moodboard with swatches and type samples" loading="lazy" decoding="async">
+          <img src="/images/stock/branding.webp" alt="Brand identity moodboard with swatches and type samples" loading="lazy" decoding="async">
           <span class="post-card__cat">Branding</span>
         </a>
         <div class="post-card__body">
@@ -138,7 +138,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="post-card" data-cat="social" data-rise>
         <a class="post-card__media" href="#" tabindex="-1">
-          <img src="https://cdn.pixabay.com/photo/2021/02/03/05/27/social-media-5976707_1280.jpg" alt="Social media feed open on a smartphone" loading="lazy" decoding="async">
+          <img src="/images/stock/social-media.webp" alt="Smartphone showing a folder of social media apps" loading="lazy" decoding="async">
           <span class="post-card__cat">Social Media</span>
         </a>
         <div class="post-card__body">
@@ -151,7 +151,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="post-card" data-cat="seo" data-rise>
         <a class="post-card__media" href="#" tabindex="-1">
-          <img src="https://cdn.pixabay.com/photo/2015/09/05/21/13/analytics-925379_1280.jpg" alt="Analytics dashboard showing search traffic data" loading="lazy" decoding="async">
+          <img src="/images/stock/analytics.webp" alt="Analytics dashboard showing search traffic data" loading="lazy" decoding="async">
           <span class="post-card__cat">SEO</span>
         </a>
         <div class="post-card__body">
@@ -164,7 +164,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="post-card" data-cat="email" data-rise>
         <a class="post-card__media" href="#" tabindex="-1">
-          <img src="https://cdn.pixabay.com/photo/2019/06/30/21/36/newsletter-4308826_1280.jpg" alt="Email newsletter layout on a laptop screen" loading="lazy" decoding="async">
+          <img src="/images/stock/email.webp" alt="Mail app icon with a new message badge" loading="lazy" decoding="async">
           <span class="post-card__cat">Email &amp; CRM</span>
         </a>
         <div class="post-card__body">
@@ -177,7 +177,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="post-card" data-cat="web" data-rise>
         <a class="post-card__media" href="#" tabindex="-1">
-          <img src="https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_1280.jpg" alt="Website design layout displayed on a monitor" loading="lazy" decoding="async">
+          <img src="/images/stock/web-design.webp" alt="Website design layout displayed on a monitor" loading="lazy" decoding="async">
           <span class="post-card__cat">Web Design</span>
         </a>
         <div class="post-card__body">
@@ -190,7 +190,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="post-card" data-cat="print" data-rise>
         <a class="post-card__media" href="#" tabindex="-1">
-          <img src="https://cdn.pixabay.com/photo/2018/07/26/03/11/offset-printing-3562699_1280.jpg" alt="Offset printing press running a print job" loading="lazy" decoding="async">
+          <img src="/images/stock/print.webp" alt="Offset printing press running a print job" loading="lazy" decoding="async">
           <span class="post-card__cat">Print</span>
         </a>
         <div class="post-card__body">

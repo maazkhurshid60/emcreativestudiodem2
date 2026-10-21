@@ -89,7 +89,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
     <div class="svc-rows">
       <article class="svc-row" data-rise>
         <div class="svc-row__panel">
-          <img class="svc-row__img" src="https://cdn.pixabay.com/photo/2021/02/03/05/27/social-media-5976707_1280.jpg" alt="Social media feed open on a smartphone" loading="lazy" decoding="async">
+          <img class="svc-row__img" src="/images/stock/social-media.webp" alt="Smartphone showing a folder of social media apps" loading="lazy" decoding="async">
         </div>
         <div class="svc-row__content">
           <span class="svc-row__no">01 / Social</span>
@@ -102,7 +102,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="svc-row" data-rise>
         <div class="svc-row__panel">
-          <img class="svc-row__img" src="https://cdn.pixabay.com/photo/2017/06/29/22/29/branding-2456457_1280.jpg" alt="Branding and stationery mockup" loading="lazy" decoding="async">
+          <img class="svc-row__img" src="/images/stock/branding.webp" alt="Designer working with colour swatches and a drawing tablet" loading="lazy" decoding="async">
         </div>
         <div class="svc-row__content">
           <span class="svc-row__no">02 / Brand</span>
@@ -115,7 +115,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="svc-row" data-rise>
         <div class="svc-row__panel">
-          <img class="svc-row__img" src="https://cdn.pixabay.com/photo/2017/08/03/18/04/camera-2577668_1280.jpg" alt="Video camera set up for a content shoot" loading="lazy" decoding="async">
+          <img class="svc-row__img" src="/images/stock/camera.webp" alt="Camera and lenses ready for a content shoot" loading="lazy" decoding="async">
         </div>
         <div class="svc-row__content">
           <span class="svc-row__no">03 / Content</span>
@@ -128,7 +128,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="svc-row" data-rise>
         <div class="svc-row__panel">
-          <img class="svc-row__img" src="https://cdn.pixabay.com/photo/2019/06/30/21/36/newsletter-4308826_1280.jpg" alt="Keyboard with a send key representing email campaigns" loading="lazy" decoding="async">
+          <img class="svc-row__img" src="/images/stock/email.webp" alt="Mail app icon with a new message badge" loading="lazy" decoding="async">
         </div>
         <div class="svc-row__content">
           <span class="svc-row__no">04 / Email</span>
@@ -141,7 +141,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="svc-row" data-rise>
         <div class="svc-row__panel">
-          <img class="svc-row__img" src="https://cdn.pixabay.com/photo/2018/07/26/03/11/offset-printing-3562699_1280.jpg" alt="Offset printing press producing printed materials" loading="lazy" decoding="async">
+          <img class="svc-row__img" src="/images/stock/print.webp" alt="Offset printing press producing printed materials" loading="lazy" decoding="async">
         </div>
         <div class="svc-row__content">
           <span class="svc-row__no">05 / Print</span>
@@ -154,7 +154,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="svc-row" data-rise>
         <div class="svc-row__panel">
-          <img class="svc-row__img" src="https://cdn.pixabay.com/photo/2015/09/05/21/13/analytics-925379_1280.jpg" alt="Laptop screen showing marketing analytics charts" loading="lazy" decoding="async">
+          <img class="svc-row__img" src="/images/stock/analytics.webp" alt="Laptop screen showing marketing analytics charts" loading="lazy" decoding="async">
         </div>
         <div class="svc-row__content">
           <span class="svc-row__no">06 / Ads</span>
@@ -167,7 +167,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="svc-row" data-rise>
         <div class="svc-row__panel">
-          <img class="svc-row__img" src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_1280.jpg" alt="Close-up of HTML source code listing a page&rsquo;s internal links" loading="lazy" decoding="async">
+          <img class="svc-row__img" src="/images/stock/code.webp" alt="Close-up of website source code on a screen" loading="lazy" decoding="async">
         </div>
         <div class="svc-row__content">
           <span class="svc-row__no">07 / Search</span>

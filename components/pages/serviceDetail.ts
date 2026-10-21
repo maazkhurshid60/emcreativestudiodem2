@@ -62,7 +62,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 <section class="hero" id="top">
   <div class="hero__ground"></div>
   <div class="hero__photo" aria-hidden="true">
-    <img src="https://cdn.pixabay.com/photo/2021/02/03/05/27/social-media-5976707_1280.jpg" alt="" loading="eager" decoding="async">
+    <img src="/images/stock/social-media.webp" alt="" loading="eager" decoding="async">
   </div>
   <div class="hero__photo-veil" aria-hidden="true"></div>
   <div class="pk-crown" aria-hidden="true"></div>

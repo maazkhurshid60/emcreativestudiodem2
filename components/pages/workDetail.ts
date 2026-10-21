@@ -42,7 +42,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 <section class="hero" id="top" style="min-height:74vh;">
   <div class="hero__ground"></div>
   <div class="hero__photo" aria-hidden="true">
-    <img src="https://cdn.pixabay.com/photo/2014/04/04/22/36/los-angeles-314006_1280.jpg" alt="" loading="eager" decoding="async">
+    <img src="/images/stock/la-skyline.webp" alt="" loading="eager" decoding="async">
   </div>
   <div class="hero__photo-veil" aria-hidden="true"></div>
   <div class="pk-crown" aria-hidden="true"></div>
@@ -145,11 +145,11 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
     <div class="gallery" style="margin-top:clamp(28px,4vh,40px);" data-rise>
       <div class="gallery__item">
-        <img src="https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_1280.jpg" alt="The rebuilt Westside Realty Group website shown on a laptop screen" loading="lazy" decoding="async">
+        <img src="/images/stock/web-design.webp" alt="The rebuilt Westside Realty Group website shown on a desktop screen" loading="lazy" decoding="async">
         <span class="gallery__cap">New homepage &amp; listing template</span>
       </div>
       <div class="gallery__item">
-        <img src="https://cdn.pixabay.com/photo/2024/09/17/11/19/real-estate-9053405_1280.jpg" alt="A staged living room photographed for a Westside Realty Group listing" loading="lazy" decoding="async">
+        <img src="/images/stock/modern-home.webp" alt="A modern home at dusk photographed for a Westside Realty Group listing" loading="lazy" decoding="async">
         <span class="gallery__cap">Listing photography, framed to sell scale</span>
       </div>
     </div>
@@ -253,7 +253,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
     <a class="next-case" href="/work" style="margin-top:clamp(28px,4vh,40px);" data-rise>
       <div class="next-case__art">
-        <img class="next-case__img" src="https://cdn.pixabay.com/photo/2017/06/29/22/29/branding-2456457_1280.jpg" alt="Branding and stationery mockup for Marchetti &amp; Co." loading="lazy" decoding="async">
+        <img class="next-case__img" src="/images/stock/branding.webp" alt="Designer working with colour swatches for Marchetti &amp; Co." loading="lazy" decoding="async">
       </div>
       <div class="next-case__body">
         <p class="next-case__tag">Next In The Portfolio &middot; Brand Identity</p>

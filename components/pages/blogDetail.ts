@@ -48,7 +48,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 <section class="hero" id="top">
   <div class="hero__ground"></div>
   <div class="hero__photo" aria-hidden="true">
-    <img src="https://cdn.pixabay.com/photo/2017/08/03/18/04/camera-2577668_1280.jpg" alt="" loading="eager" decoding="async">
+    <img src="/images/stock/camera.webp" alt="" loading="eager" decoding="async">
   </div>
   <div class="hero__photo-veil" aria-hidden="true"></div>
   <div class="hero__scrim" aria-hidden="true"></div>
@@ -89,7 +89,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <figure class="art__figure" data-rise>
         <div class="art__figure-media">
-          <img src="https://cdn.pixabay.com/photo/2024/09/17/11/19/real-estate-9053405_1280.jpg" alt="A staged living room photographed from a corner angle, showing the full depth of the space" loading="lazy" decoding="async">
+          <img src="/images/stock/modern-home.webp" alt="A modern home photographed at dusk, lit from inside" loading="lazy" decoding="async">
         </div>
         <figcaption class="art__figure-cap">A corner angle holds a room&rsquo;s true proportions and gives buyers a sense of scale that most doorway shots lose.</figcaption>
       </figure>
@@ -157,7 +157,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
     <div class="post-grid">
       <article class="post-card" data-rise>
         <a class="post-card__media" href="/blog" tabindex="-1">
-          <img src="https://cdn.pixabay.com/photo/2017/06/29/22/29/branding-2456457_1280.jpg" alt="Brand identity moodboard with swatches and type samples" loading="lazy" decoding="async">
+          <img src="/images/stock/branding.webp" alt="Brand identity moodboard with swatches and type samples" loading="lazy" decoding="async">
           <span class="post-card__cat">Branding</span>
         </a>
         <div class="post-card__body">
@@ -170,7 +170,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="post-card" data-rise>
         <a class="post-card__media" href="/blog" tabindex="-1">
-          <img src="https://cdn.pixabay.com/photo/2015/09/05/21/13/analytics-925379_1280.jpg" alt="Analytics dashboard showing search traffic data" loading="lazy" decoding="async">
+          <img src="/images/stock/analytics.webp" alt="Analytics dashboard showing search traffic data" loading="lazy" decoding="async">
           <span class="post-card__cat">SEO</span>
         </a>
         <div class="post-card__body">
@@ -183,7 +183,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
 
       <article class="post-card" data-rise>
         <a class="post-card__media" href="/blog" tabindex="-1">
-          <img src="https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_1280.jpg" alt="Website design layout displayed on a monitor" loading="lazy" decoding="async">
+          <img src="/images/stock/web-design.webp" alt="Website design layout displayed on a monitor" loading="lazy" decoding="async">
           <span class="post-card__cat">Web Design</span>
         </a>
         <div class="post-card__body">

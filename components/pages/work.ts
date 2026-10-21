@@ -241,7 +241,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
     <div class="work-grid" id="workGrid">
       <article class="work-card" data-cat="Web Design" data-rise>
         <div class="work-card__art">
-          <img class="work-card__img" src="https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_1280.jpg" alt="Website design mockup on a laptop screen" loading="lazy" decoding="async">
+          <img class="work-card__img" src="/images/stock/web-design.webp" alt="Website design layout on a desktop monitor" loading="lazy" decoding="async">
           <svg class="work-card__mark" viewBox="0 0 120 74"><use href="#crown"/></svg>
         </div>
         <div class="work-card__body">
@@ -254,7 +254,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
       </article>
       <article class="work-card" data-cat="Brand Identity" data-rise>
         <div class="work-card__art">
-          <img class="work-card__img" src="https://cdn.pixabay.com/photo/2017/06/29/22/29/branding-2456457_1280.jpg" alt="Branding and stationery mockup" loading="lazy" decoding="async">
+          <img class="work-card__img" src="/images/stock/branding.webp" alt="Designer working with colour swatches and a drawing tablet" loading="lazy" decoding="async">
           <svg class="work-card__mark" viewBox="0 0 120 74"><use href="#crown"/></svg>
         </div>
         <div class="work-card__body">
@@ -267,7 +267,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
       </article>
       <article class="work-card" data-cat="SEO &amp; Local Search" data-rise>
         <div class="work-card__art">
-          <img class="work-card__img" src="https://cdn.pixabay.com/photo/2014/04/04/22/36/los-angeles-314006_1280.jpg" alt="Los Angeles city skyline" loading="lazy" decoding="async">
+          <img class="work-card__img" src="/images/stock/la-skyline.webp" alt="Los Angeles skyline at sunset framed by palm trees" loading="lazy" decoding="async">
           <svg class="work-card__mark" viewBox="0 0 120 74"><use href="#crown"/></svg>
         </div>
         <div class="work-card__body">
@@ -280,7 +280,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
       </article>
       <article class="work-card" data-cat="Paid Social" data-rise>
         <div class="work-card__art">
-          <img class="work-card__img" src="https://cdn.pixabay.com/photo/2021/02/03/05/27/social-media-5976707_1280.jpg" alt="Social media feed open on a smartphone" loading="lazy" decoding="async">
+          <img class="work-card__img" src="/images/stock/social-media.webp" alt="Smartphone showing a folder of social media apps" loading="lazy" decoding="async">
           <svg class="work-card__mark" viewBox="0 0 120 74"><use href="#crown"/></svg>
         </div>
         <div class="work-card__body">
@@ -293,7 +293,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
       </article>
       <article class="work-card" data-cat="Content Studio" data-rise>
         <div class="work-card__art">
-          <img class="work-card__img" src="https://cdn.pixabay.com/photo/2017/08/03/18/04/camera-2577668_1280.jpg" alt="Video camera set up for a content shoot" loading="lazy" decoding="async">
+          <img class="work-card__img" src="/images/stock/camera.webp" alt="Camera and lenses ready for a content shoot" loading="lazy" decoding="async">
           <svg class="work-card__mark" viewBox="0 0 120 74"><use href="#crown"/></svg>
         </div>
         <div class="work-card__body">
@@ -306,7 +306,7 @@ export const HTML = `<svg width="0" height="0" style="position:absolute" aria-hi
       </article>
       <article class="work-card" data-cat="Email &amp; CRM" data-rise>
         <div class="work-card__art">
-          <img class="work-card__img" src="https://cdn.pixabay.com/photo/2019/06/30/21/36/newsletter-4308826_1280.jpg" alt="Keyboard with a send key representing email campaigns" loading="lazy" decoding="async">
+          <img class="work-card__img" src="/images/stock/email.webp" alt="Mail app icon with a new message badge" loading="lazy" decoding="async">
           <svg class="work-card__mark" viewBox="0 0 120 74"><use href="#crown"/></svg>
         </div>
         <div class="work-card__body">
