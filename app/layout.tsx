@@ -15,11 +15,9 @@ export const metadata: Metadata = {
   // image is app/opengraph-image.tsx.
   openGraph: { type: "website", siteName: SITE_NAME, locale: "en_US" },
   twitter: { card: "summary_large_image" },
-  // TEMPORARY: keeps the whole site out of search results until launch. Every
-  // route inherits this from the root layout. Remove it to allow indexing.
-  // Do not also block the site in robots.txt - Google has to be able to crawl
-  // a page to see its noindex.
-  robots: { index: false, follow: false },
+  // Every route inherits this. The template viewer pages override it with
+  // noindex (app/templates/[slug]/page.tsx), since they are demo sites.
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
