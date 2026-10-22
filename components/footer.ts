@@ -12,6 +12,13 @@
  * #quiz and #top became /#process, /#quiz and /#top, since those sections
  * only exist on the home page. From "/" they are still a same-document
  * fragment navigation, so nothing changed there either. */
+import { INDUSTRY_LINKS, SERVICE_LINKS } from "@/lib/details";
+
+const items = (links: { name: string; href: string }[]) =>
+  links.map((l) => `          <li><a href="${l.href}" data-hot>${l.name.replace(/&/g, "&amp;")}</a></li>`).join("\n");
+const SERVICES_LI = items(SERVICE_LINKS);
+const INDUSTRIES_LI = items(INDUSTRY_LINKS);
+
 export const FOOTER_HTML = `
 <footer class="foot" id="contact">
   <div class="foot__crown" aria-hidden="true"></div>
@@ -22,29 +29,35 @@ export const FOOTER_HTML = `
       <p class="foot__tagline">Boutique real estate marketing that earns your crown.</p>
     </div>
 
-    <!-- 3 columns: Studio, Company, Contact+Social -->
+    <!-- 4 columns: Services, Industries, Studio+Social, Contact -->
     <div class="foot__body">
+      <div>
+        <p class="foot__label">Services</p>
+        <ul>
+${SERVICES_LI}
+        </ul>
+      </div>
+      <div>
+        <p class="foot__label">Industries</p>
+        <ul>
+${INDUSTRIES_LI}
+          <li><a href="/industries" data-hot>All industries</a></li>
+        </ul>
+      </div>
       <div>
         <p class="foot__label">Studio</p>
         <ul>
-          <li><a href="/services" data-hot>Services</a></li>
+          <li><a href="/about" data-hot>About</a></li>
           <li><a href="/packages" data-hot>Packages</a></li>
+          <li><a href="/work" data-hot>Work</a></li>
           <li><a href="/templates" data-hot>Templates</a></li>
-          <li><a href="/services/seo" data-hot>SEO Plans</a></li>
+          <li><a href="/blog" data-hot>Blog</a></li>
+          <li><a href="/testimonials" data-hot>Testimonials</a></li>
           <li><a href="/#quiz" data-hot>Assessment</a></li>
-          <li><a href="/#process" data-hot>Process</a></li>
         </ul>
         <div class="foot__social-row">
           <a href="#" data-hot aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg></a>
         </div>
-      </div>
-      <div>
-        <p class="foot__label">Company</p>
-        <ul>
-          <li><a href="/about" data-hot>About</a></li>
-          <li><a href="/blog" data-hot>Blog</a></li>
-          <li><a href="/testimonials" data-hot>Testimonials</a></li>
-        </ul>
       </div>
       <div>
         <p class="foot__label">Contact</p>
@@ -72,6 +85,7 @@ export const FOOTER_HTML = `
         <a href="/privacy" data-hot>Privacy Policy</a>
         <a href="/terms" data-hot>Terms of Service</a>
         <a href="/privacy#cookies" data-hot>Cookies</a>
+        <a href="/site-map" data-hot>Site Map</a>
       </div>
     </div>
   </div>

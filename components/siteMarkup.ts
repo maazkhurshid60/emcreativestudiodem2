@@ -1,5 +1,26 @@
 import { FOOTER_HTML } from "./footer";
 import { TEMPLATES } from "@/lib/templates";
+import { INDUSTRY_LINKS } from "@/lib/details";
+
+// Home page marquee rows. Short names here; the pages carry the full ones.
+const STRIP_SERVICES = [
+  { name: "Social Media", href: "/services/social-media-management" },
+  { name: "Branding", href: "/services/branding-strategy" },
+  { name: "Websites", href: "/services/website-design" },
+  { name: "Content", href: "/services/content-creation" },
+  { name: "Email", href: "/services/email-marketing" },
+  { name: "Print", href: "/services/print-digital-marketing" },
+  { name: "Advertising", href: "/services/digital-advertising" },
+  { name: "SEO", href: "/services/seo" },
+];
+const STRIP_INDUSTRIES = INDUSTRY_LINKS;
+
+// One copy of a marquee row. The track holds two copies and slides by half
+// its width; the second is hidden from screen readers and the tab order.
+const marqueeSet = (links: { name: string; href: string }[], dup = false) =>
+  `<div class="strip__set"${dup ? ' aria-hidden="true"' : ""}>${links
+    .map((l) => `<a href="${l.href}"${dup ? ' tabindex="-1"' : ""} data-hot>${l.name.replace(/&/g, "&amp;")}</a><i aria-hidden="true"></i>`)
+    .join("")}</div>`;
 
 // Home page teaser cards for /templates, one per entry in lib/templates.ts.
 const TEMPLATE_CARDS = TEMPLATES.map(
@@ -287,24 +308,20 @@ export const SITE_BODY_HTML = `
 </div><!-- /.atmos -->
 
 
-<!-- ===================== MARQUEE (minimal) ===================== -->
-<section class="strip" aria-label="What we do">
-  <div class="strip__track">
-    <div class="strip__set">
-      <span>SEO</span><i>&#8212;</i>
-      <span>Websites</span><i>&#8212;</i>
-      <span>Branding</span><i>&#8212;</i>
-      <span>Social</span><i>&#8212;</i>
-      <span>Content</span><i>&#8212;</i>
-      <span>Email</span><i>&#8212;</i>
+<!-- ===================== MARQUEE ===================== -->
+<!-- Two quiet rows running in opposite directions: what the studio does,
+     then who it does it for. Every word links to its page. -->
+<section class="strip" aria-label="Services and industries">
+  <div class="strip__row">
+    <span class="strip__lbl">What we do</span>
+    <div class="strip__view">
+      <div class="strip__track">${marqueeSet(STRIP_SERVICES)}${marqueeSet(STRIP_SERVICES, true)}</div>
     </div>
-    <div class="strip__set" aria-hidden="true">
-      <span>SEO</span><i>&#8212;</i>
-      <span>Websites</span><i>&#8212;</i>
-      <span>Branding</span><i>&#8212;</i>
-      <span>Social</span><i>&#8212;</i>
-      <span>Content</span><i>&#8212;</i>
-      <span>Email</span><i>&#8212;</i>
+  </div>
+  <div class="strip__row strip__row--alt">
+    <span class="strip__lbl">Who it&rsquo;s for</span>
+    <div class="strip__view">
+      <div class="strip__track">${marqueeSet(STRIP_INDUSTRIES)}${marqueeSet(STRIP_INDUSTRIES, true)}</div>
     </div>
   </div>
 </section>

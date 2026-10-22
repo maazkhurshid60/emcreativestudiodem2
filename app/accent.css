@@ -111,3 +111,17 @@ section:nth-of-type(even).sec, section:nth-of-type(even).quote{ --glow-at: 0% 60
     0 18px 40px -22px color-mix(in srgb, var(--aqua) 90%, #1d4a48);
   color:var(--espresso);
 }
+
+/* Footer, four columns: Services, Industries, Studio, Contact. Every page
+   sheet still declares the old three-column grid, so the layout is set
+   once here, where it wins on every route. */
+.foot__body{ grid-template-columns:repeat(3,minmax(0,1fr)) minmax(0,1.3fr); }
+@media (max-width:980px){
+  .foot__body{ grid-template-columns:1fr 1fr; row-gap:40px; }
+}
+@media (max-width:560px){
+  .foot__body{ grid-template-columns:1fr 1fr; row-gap:36px; column-gap:20px; }
+  .foot__body > :nth-child(3){ grid-column:auto; }
+  .foot__body > :nth-child(4){ grid-column:1 / -1; }
+  .foot__body li a{ font-size:14px; }
+}
